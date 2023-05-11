@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+   }
+   
+   #head{
+       background-color: #272727;
+   }
+   
+   .container{
+       max-width: 1080px;
+       display: flex;
+       margin: 0 auto;
+   }
+   
+   .menu{
+       width: 50%;
+       margin-top: 3%;
+       margin-left: 20%;
+   }
+   
+   .menu nav a{
+       color: #ffffff;
+       text-decoration: none;
+       padding-right: 20px;
+   }
+   
+   .fundo{
+    background-color:#f6f9ff;
+   }
+   
+   .botao_inicial{
+       font-size: 1em;
+        background: #010a00;
+        border: 0;
+        margin-bottom: 1em;
+        color: #adc1b6;
+        padding: 0.2em 0.6em;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 4%;
+        left: 90%;
+        margin-right: 0%; 
+        transform: translate(-50% =50%);
+   }
+   
+   .botao_entrar{
+       font-size: 1em;
+        background: #010a00;
+        border: 0;
+        margin-bottom: 1em;
+        color: #adc1b6;
+        padding: 0.2em 0.6em;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 4%;
+        left: 84%;
+        margin-right: 0%; 
+        transform: translate(-50% =50%);
+   }
+   
+   .botao_entrar:hover{
+       background:#adc1b6;
+       box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+       text-shadow: none;
+       color: black;
+   }
+   
+   .botao_inicial:hover{
+       background:#adc1b6;
+       box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+       text-shadow: none;
+       color: black;
+   }
+   
+   #img{
+       height: 130px;
+       width: 130px;
+       margin-left: -15%;
+       margin-bottom: -1%;
+       margin-top: -3%;
+       position: flex;
+   }
+   
+   #imagem1{
+       margin-top: -1%;
+   }
+   
+   #titulo{
+       color:#457d58;
+       margin-left: -1%;
+       margin-top: 1%;
+       font-size: 250%;
+   }
+
+   #titulo1{
+       color: #000000;
+       text-align: center;
+       font-size: 200%;
+   }
+
+   .div_titulo{
+        margin-top: 2%;
+        text-align: center;
+        background-color: #f6f9ff;
+    }
+
+   .div_texto{
+        background: #f6f9ff;
+        height: 100vt;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        color: #434343;
+        padding: 40px;
+        margin-top: 2%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background: white;
+        padding: 60px;
+        box-shadow: 20px 20px 50px -30px;
+   }

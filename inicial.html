@@ -6,18 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial</title>
     <link rel="stylesheet" type="text/css" href="inicial.css" media="screen">
-    <script type="text/javascript" src="funcoes.js"></script>
+    <script type="text/javascript" src="funcoes.js" defer></script>
 </head>
 <body class="fundo">
     <header id="head">
-        <img id="img" src="sem_titulo-removebg-preview.png" alt="logo" width=100 height=100>
-        <h1 id="titulo"><strong>Proles Bank</strong></h1>
-        <button class="botao_inicial" onclick="redir()">Cadastre-se</button>
-        <button class="botao_entrar" onclick="redir_ent()">Entrar</button>
+        <div class = "container">
+            <img id="img" src="img/sem_titulo-removebg-preview.png" alt="logo" width=100 height=100>
+            <h1 id="titulo"><strong>Proles Bank</strong></h1>
+            <div class = "menu">
+                <nav>
+                    <a href="http://127.0.0.1:3000/inicial.html">Home</a>
+                    <a href="http://127.0.0.1:3000/sobre.html">Sobre</a>
+                    <a href="#">Desenvolvedores</a>
+                </nav>
+            </div>
+            <button class="botao_inicial" onclick="redir()">Cadastre-se</button>
+            <button class="botao_entrar" onclick="redir_ent()">Entrar</button>
+        </div>
     </header>
     
-    <div>
-        <img id="imagem1" src="Adquira já nosso cartão.jpg" alt="cartao">
+    <section class="slider">
+        <div class="slider-content">
+            <input type="radio" name="btn-radio" id="radio1">
+            <input type="radio" name="btn-radio" id="radio2">
+            <input type="radio" name="btn-radio" id="radio3">
+    
+            <div class="slide-box primeiro">
+                <img class="img-desktop" src="img/2.jpg" alt="img2">
+            </div>
+            <div class="slide-box">
+                <img class="img-desktop" src="img/3.jpg" alt="img2">
+            </div>
+            <div class="slide-box">
+                <img class="img-desktop" src="img/1.jpg" alt="img2">
+            </div>
+    
+            <div class="nav-auto">
+                <div class="auto-bnt1"></div>
+                <div class="auto-bnt2"></div>
+                <div class="auto-bnt3"></div>
+            </div>
+    
+            <div class="nav-manual">
+                <label for="radio1" class="manual-bnt1"></label>
+                <label for="radio2" class="manual-bnt1"></label>
+                <label for="radio3" class="manual-bnt1"></label>
+            </div>
+        </div>
+    </section>
+    <h2 id="tit_plano">Planos</h2>
+    <div class="planos">
+        <section class="card">
+            <div class="icon">
+                <img src="img/ouro.png" alt="ouro">
+            </div>
+            <h3>Cliente Ouro</h3>
+            <span><br>blablablabla</span>
+            <br>
+            <button onclick="redir_ent()"><strong>Saiba mais</strong></button>
+        </section>
+        <section class="card">
+            <div class="icon">
+                <img src="img/prata.png" alt="prata">
+            </div>
+            <h3>Cliente Prata</h3>
+            <span><br>blablablabla</span>
+            <br>
+            <button onclick="redir_ent()"><strong>Saiba mais</strong></button>
+        </section>
+        <section class="card">
+            <div class="icon">
+                <img src="img/bronze.png" alt="bronze">
+            </div>
+            <h3>Cliente Bronze</h3>
+            <span><br>blablablabla</span>
+            <br>
+            <button onclick="redir_ent()"><strong>Saiba mais</strong></button>
+        </section>
     </div>
 
     <div id="div2">
@@ -27,27 +92,9 @@
         como público geral, mas logo depois, abriu portas para outras classes sociais</p>
     </div>
 
-    <div id="div3">
-        <h2 id="titu">Planos</h2>
-        <p id="texto3">Caixas falando sobre os planos</p>
-        <ol type="I">
-            <li>Cliente Bronze</li>
-            <li>Clinete Prata </li>
-            <li>Cliente Ouro 3</li>
-        </ol>
-
-    </div>
-
     <div id="div4">
         <h2 id="titu">Parceiros Sociais</h2>
         <p id="texto2">Campo para fotos</p>
-    </div>
-
-    <div id="div1">
-        <h2 id="titu">Sobre o Proles</h2>
-        <p id="texto1">O Proles Bank é um banco digital para pessoas físicas e jurídicas.
-        Com um projeto que se iniciou em 2022, a instituição foi lançada incialmente tendo o Proletariado
-        como público geral, mas logo depois, abriu portas para outras classes sociais</p>
     </div>
 
 </body>

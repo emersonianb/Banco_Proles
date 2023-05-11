@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #img{
@@ -25,7 +26,6 @@
 
 #pergunta{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: white;
     color: #272727;
     font-size: 70%;
     margin-top: 36%;
@@ -56,18 +56,18 @@ input, select, textarea, button{
 
 .campo label{
     margin-bottom: 0.3em;
-    color: rgb(181, 214, 204);
+    color: rgb(0, 0, 0);
     display: block;
 }
 
 .formulario{
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(184, 170, 170, 0.527);
     top: 22%;
     left: 50%;
     transform: translate(-50%, 50%);
     padding: 30px;
-    border-radius: 15px;
+    border-radius: 30px;
     float: left;
     margin-right: 1em;
 }
@@ -90,13 +90,12 @@ input, select, textarea, button{
 
 .button{
      font-size: 1.2em;
-     background:#457d58;
+     background: linear-gradient(to right, #457d58, #95d8ac);
      border: 0;
      margin-bottom: 1em;
-     color: black;
+     color: white;
      padding: 0.2em 0.6em;
      box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
      position: absolute;
      top: 103%;
      left: 50%;
@@ -107,34 +106,32 @@ input, select, textarea, button{
 }
 
 .button:hover{
-    background: black;
+    background: linear-gradient(to right, #0a9937, #054103);
     box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
     text-shadow: none;
-    color: #adc1b6;
+    color: white;
 }
 
 
 .botao_inicial{
     font-size: 1.2em;
-     background:#272727;
-     border: 0;
+    background: linear-gradient(to right, #457d58, #95d8ac);
+    border: 0;
      margin-bottom: 1em;
      color: white;
      padding: 0.2em 0.6em;
      box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
      position: absolute;
-     left: 46.5%;
+     left: 45%;
      top: 78%;
      margin-right: -50%; 
      transform: translate(-50% =50%);
-     border-radius: 10px;
+     border-radius: 15px;
 
 }
 
 .botao_inicial:hover{
-    background: #457d58;
+    background: linear-gradient(to right, #0a9937, #054103);
     box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
-    text-shadow: none;
-    color: black;
+    color: white;
 }

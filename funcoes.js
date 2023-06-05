@@ -3,7 +3,7 @@ function redir(){
 }
 
 function redir_ent(){
-    window.location.href = "http://127.0.0.1:3000/entrar.html"
+    window.location.href = "https://emersonianb.github.io/Banco_Proles/entrar.html"
 }
 
 function redir_conc(){

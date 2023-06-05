@@ -2,6 +2,8 @@
 
 <p> <h2> Repositório em desenvolvimento criado para compartilhar a interface web para o Banco Proles, feito para a cadeira de POO com seu back-end em C++</h2> </p> <br>
 
+<p/>Conheça o <a href="https://emersonianb.github.io/Banco_Proles/inicial.html">Banco Proles</a></p>
+
 <table align="center">
   <tr>
     <th width=300> <h2> Linguagens </h2> </th>

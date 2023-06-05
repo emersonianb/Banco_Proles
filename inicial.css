@@ -3,13 +3,12 @@
  padding: 0;
  box-sizing: border-box;
  font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
 #head{
     background-color: #272727;
     width: 100%;
-    position: fixed;
+    position: absolute;
 }
 
 .container{
